@@ -2,7 +2,7 @@ const Home = () => {
     return (        <div className="container">
     <div className="row">
         <div className="col-12">
-        <h3>Welcome to my React App</h3>
+        <h3>Home</h3>
         </div>
       <div className="col">
         COL1
