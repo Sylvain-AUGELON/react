@@ -14,16 +14,16 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+              <NavLink activeClassname="active"  exact className="nav-link" aria-current="page" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/Caroussel">carroussel</NavLink>
+              <NavLink activeClassname="active"  exact className="nav-link" to="/Caroussel">carroussel</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#" >contact</a>
+              <NavLink activeClassname="active" exact className="nav-link" to="/Gallery" >Gallery</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#" >contact</a>
+              <a className="nav-link" href="#" >contact</a>
             </li>
           </ul>
           <form className="d-flex">
